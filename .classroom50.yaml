@@ -1,0 +1,13 @@
+schema: "classroom50/repo-config/v1"
+classroom: "seminar-programovani-3r-2026-2027"
+assignment: "01-greetings"
+secret: "mmibsca8"
+owner:
+  username: "vojtahalm"
+  id: 324467201
+  accepted_at: "2026-09-10T12:02:37Z"
+source:
+  owner: "mgvsetin-programovani-3r-2026-2027"
+  owner_id: 326413859
+  repo: "template-01-greetings"
+  branch: "main"
