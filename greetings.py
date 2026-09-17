@@ -23,15 +23,23 @@ os.system("cls")
 jmeno = input("Vojta")
 prijmeni = input("Halmazňa")
 
-print(f"Ahoj, {jmeno} {prijmeni}! Těší mě, že tě poznávám.")
-
 
 # Generování pozdravu bez náhodného prvku a zobrazení v terminálu
-
+print(f"Ahoj, {jmeno} {prijmeni}! Těší mě, že tě poznávám.")
 
 ##############################################################
 ### Rozšířená verze - pseudonáhodný výběr bez zamíchání
 # vytvořit greetings jako list pozdravů
+
+greetings = [f"Ahoj, {jmeno} {prijmeni}! Těší mě, že tě poznávám.",
+             f"Zdravím tě, {jmeno} {prijmeni}! Jak se máš?",
+             f"Zdar, {jmeno} {prijmeni}! Rád tě vidím."
+             f"Bonjour, {jmeno} {prijmeni}! Comment ça va?"]
+
+import random
+print(random.choice(greetings))
+
+
 
 import random
 
